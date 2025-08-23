@@ -33,15 +33,18 @@ DevOps is a collaborative philosophy that merges **Development (Dev)** and **Ope
 Automatically integrate code changes from multiple contributors into a shared repository.
 
 ### 2. Continuous Delivery (CD)
-Automate the delivery of applications to testing and production environments.
+Automate the testing and preparation of applications for release. The system ensures production-ready builds are always available, but the final deployment requires manual approval.
 
-### 3. Microservices
+### 3. Continuous Deployment (CD)
+Goes one step further than Continuous Delivery — every code change that passes automated testing is automatically deployed into production, without human intervention.
+
+### 4. Microservices
 Design architecture around small, independent services.
 
-### 4. Infrastructure as Code (IaC)
+### 5. Infrastructure as Code (IaC)
 Provision and manage infrastructure using code and automation tools.
 
-### 5. Monitoring & Logging
+### 6. Monitoring & Logging
 Track performance and quickly detect issues.
 
 ---
